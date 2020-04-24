@@ -2,6 +2,9 @@
 	"name": "project",
 	"version": "0.1.0",
 	"private": true,
+	"engines": {
+		"node": "^8.10.0"
+	},
 	"scripts": {
 		"test": "cross-env VUE_CLI_BABEL_TARGET_NODE=true VUE_CLI_BABEL_TRANSPILE_MODULES=true jest",
 		"exec": "cross-env VUE_CLI_BABEL_TARGET_NODE=true VUE_CLI_BABEL_TRANSPILE_MODULES=true jest --json",
